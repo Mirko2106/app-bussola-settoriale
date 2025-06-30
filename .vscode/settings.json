@@ -1,0 +1,11 @@
+{
+  "python.analysis.extraPaths": [
+    "./src"
+  ],
+  "python.linting.pylintArgs": [
+    "--init-hook",
+    "import sys; sys.path.append('./src')"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true
+}
