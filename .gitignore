@@ -1,0 +1,5 @@
+
+# Runtime / cache
+__pycache__/
+bussola-settoriale/
+streamlit.log
