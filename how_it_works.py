@@ -9,7 +9,7 @@ def show_how_it_works():
 
     st.image("assets/fibonacci.png", use_container_width=True, caption="")
 
-    st.markdown("##Dashboard")
+    st.markdown("## Dashboard")
 
     st.markdown("""
     The **Dashboard** section allows you to analyze each GICS sector ETF (e.g., XLK, XLF, XLE) relative to the benchmark index **SPY**.
@@ -25,7 +25,7 @@ def show_how_it_works():
     These tools help detect early signs of **sector rotation** and confirm technical **momentum signals**.
     """)
 
-    st.markdown("##Discretionary vs Staples")
+    st.markdown("## Discretionary vs Staples")
 
     st.markdown("""
     This section focuses on the **XLY/XLP ratio**, which compares two key consumer sector ETFs:
