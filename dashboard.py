@@ -50,15 +50,15 @@ def show_dashboard():
 
     # === GRAFICO 3: ETF/SPY ===
     df_relative = get_relative_candles(df_etf, df_spy)
-    st.subheader(f"⚖️ Relative Strenght: {selected_ticker}/SPY")
+    st.subheader(f"Relative Strenght: {selected_ticker}/SPY")
     st.plotly_chart(create_candlestick_chart(df_relative, title=f"{selected_ticker}/SPY – Relative Strenght"), use_container_width=True)
 
 
     # ============================
-    # 📐 Technical Indicators on ETF/SPY
+    # Technical Indicators on ETF/SPY
     # ============================
 
-    st.markdown("## 📐 Technical Indicators")
+    st.markdown("## Technical Indicators")
 
     col1, col2, col3 = st.columns(3)
     with col1:
