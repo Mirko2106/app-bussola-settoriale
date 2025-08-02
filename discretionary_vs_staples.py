@@ -17,15 +17,15 @@ def show_discretionary_vs_staples():
     df_XLP = get_etf_data("XLP")
 
     df_relative = get_relative_candles(df_XLY, df_XLP)
-    st.subheader("⚖️ Relative Strenght: Dicretionary/Staples")
+    st.subheader("Relative Strenght: Dicretionary/Staples")
     st.plotly_chart(create_candlestick_chart(df_relative, title="XLY/XLP – Relative Strenght"), use_container_width=True)
 
 
     # ============================
-    # 📐 Technical Indicators on ETF/SPY
+    # Technical Indicators on ETF/SPY
     # ============================
 
-    st.markdown("## 📐 Technical Indicators")
+    st.markdown("## Technical Indicators")
 
     col1, col2, col3 = st.columns(3)
     with col1:
